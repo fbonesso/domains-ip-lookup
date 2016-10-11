@@ -8,7 +8,7 @@ import socket
 # Set input file path with domains separated by lines
 domains_input = raw_input("Enter input domains file (lookup/domains-input.txt): ")
 
-# Set out file path with domains separated by lines
+# Set output file path with domains separated by lines
 domains_output = raw_input("Enter input domains file (lookup/domains-output.txt): ")
 
 # Define the default path for input domains file
@@ -40,7 +40,7 @@ try:
             # Write line to output domains file
             with open(domains_output, "a") as file:
                 file.write(line + "\n")
-                
+
 except Exception, error:
     # Output exception
     print "Error: " + error
