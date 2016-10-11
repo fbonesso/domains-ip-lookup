@@ -4,6 +4,8 @@ A simple Python script to discover IP from a list of multiple domains.
 ## Usage
 Create a file `lookup/domains-input.txt` with one domain per line.
 
+After that just run:
+
 `python domains-ip-lookup.py`
 
 ## Contribute
