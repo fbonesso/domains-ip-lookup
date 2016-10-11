@@ -1,0 +1,3 @@
+google.com - 216.58.222.14
+github.com - 192.30.253.113
+news.ycombinator.com - 104.20.43.44
