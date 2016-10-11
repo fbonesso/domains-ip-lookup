@@ -40,6 +40,7 @@ try:
             # Write line to output domains file
             with open(domains_output, "a") as file:
                 file.write(line + "\n")
+                
 except Exception, error:
     # Output exception
     print "Error: " + error
